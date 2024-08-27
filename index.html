@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PortFolio | Shakti kashyap</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="matter.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/ff32a10f2d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+        <div id="wrapper-canvas"></div>
+      <div class="container">
+        <nav>
+          <img src="https://res.cloudinary.com/dtbz1n84e/image/upload/v1724749350/portfolioLogo-removebg-preview1_mhy023.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-x" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+          <p>FullStack developer</p>
+          <h1>Hi, I'm <span>Shakti Kashyap</span><br />From India</h1>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ---------About-------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="https://res.cloudinary.com/dtbz1n84e/image/upload/v1724749128/portfolio_image_o2evme.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti
+              dolores maxime sunt necessitatibus aliquam tempora ullam
+              doloremque veritatis aspernatur rem libero, facilis id odit
+              suscipit quas voluptatem alias incidunt dignissimos!
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span> Javascript</span><br />Web app development</li>
+              </ul>
+
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Aug 2023 - Current</span><br />Fullstack developer at SF
+                  consultants, Bhopal
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2017</span><br />B.tech from R.G.P.V, Bhopal</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------------Services------------ -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Front-End Development</h2>
+            <p>
+              <b>Responsive Web Design</b> Creating web pages that look good on
+              all devices (desktops, tablets, and phones) using HTML, CSS, and
+              JavaScript frameworks like React js.
+            </p>
+            <br />
+            <p>
+              <b> Single Page Applications (SPA)</b> Developing SPAs that
+              provide a more fluid user experience without full page reloads,
+              using frameworks like React js
+            </p>
+            <br />
+            <p>
+              <b> Client-Side State Management</b> Implementing state management
+              solutions in front-end applications using libraries like Redux,
+              RTK.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Back-End Development</h2>
+            <p>
+              API Development: Building RESTful or GraphQL APIs using frameworks
+              like Express.js.
+            </p>
+            <br />
+            <p>
+              Database Management: Designing, implementing, and maintaining Non-
+              relational (NoSQL) databases using MongoDB.
+            </p>
+            <br />
+            <p>
+              Server-Side Logic: Writing server-side code to handle business
+              logic, data manipulation, and server responses using Node.js,
+            </p>
+            <br />
+            <p>
+              Authentication and Authorization: Implementing secure user
+              authentication and authorization using JWT, OAuth, or other
+              security protocols.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------Portfolio---------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="https://res.cloudinary.com/dtbz1n84e/image/upload/v1722938596/Post%20Images/aonptydwwdivmeqsxwyg.png" />
+            <div class="layer">
+              <h3>Socialbook</h3>
+              <p>
+                Connect with people from the world, share photos, do real time
+                chat and video calls.
+              </p>
+              <a target="_blank" href="https://socialbook-x3jq.onrender.com/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="https://res.cloudinary.com/dtbz1n84e/image/upload/v1724749233/scholer_hub_page_njefej.png" />
+            <div class="layer">
+              <h3>Scholerhub</h3>
+              <p>
+                Search world class tutor for tech related courses and book the
+                class and get conformation on email.
+              </p>
+              <a target="_blank" href="https://socialbook-x3jq.onrender.com/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="" class="btn">See more</a>
+      </div>
+    </div>
+    <!-- -----------------contact form--------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>kashyapshakti1994@gmail.com
+            </p>
+            <p><i class="fa-solid fa-square-phone"></i>8109352757</p>
+            <div class="social-icons">
+              <a
+                href="www.linkedin.com/in/
+              shakti-kashyap-3a4271222"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/shakti2505/" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href=" https://wa.me/8109352757?text=Hi there!" target="_blank"
+                ><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <a
+              href="/images/Shakti kashyap resume 2024.pdf"
+              download
+              class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright ©️ Shakti 2024. Made with ❤️ by Shakti kashyap</p>
+      </div>
+    </div>
+    <script>
+      // var tablinks = document.getElementsByClassName("tab-links");`
+      // var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        let tablinks = document.querySelectorAll(".tab-links"); // Adjust selector as needed
+        let tabcontents = document.querySelectorAll(".tab-contents"); // Adjust selector as needed
+
+        // Remove 'active-link' class from all tab links
+        for (let tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+
+        // Remove 'active-tab' class from all tab contents
+        for (let tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbz__tAmeGf-FIgP_4be_IRr4rZolnRu7lWDEz-dHB3aLnAeW6DHu9LOm8rLhHzYAkWA/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = " ";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+    <!-- <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.12.0/matter.min.js"></script>
+    <script src="https://cdn/jsdelivr.net/npm/matter-wrap@0.2.0/build/matter-wrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/matter-attractors@0.1.6/build/matter-attractors.min.js"></script>
+  </body>
+</html>
